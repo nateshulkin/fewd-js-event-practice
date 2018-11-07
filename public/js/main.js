@@ -1,3 +1,5 @@
+(function () {
+
 const buttons = document.querySelectorAll('button');
 const button1 = buttons[0];
 const button2 = buttons[1];
@@ -12,3 +14,5 @@ button2.addEventListener('click', function() {
 button3.addEventListener('click', function() {
   button2.innerText = 'button two';
 });
+
+})();
